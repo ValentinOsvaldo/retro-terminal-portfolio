@@ -18,7 +18,7 @@ export default function EnhancedRetroTerminal() {
   useEffect(() => {
     setOutput([
       ASCII_LOGO,
-      "Welcome to Osvaldo's interactive portfolio! Type 'help' for available commands.",
+      `Welcome to Osvaldo's interactive portfolio! Type 'help' for available commands.`,
     ]);
   }, []);
 
@@ -88,7 +88,7 @@ export default function EnhancedRetroTerminal() {
 
   return (
     <div className="min-h-screen bg-black p-4 font-mono text-green-500 flex flex-col overflow-hidden">
-      <div className="flex items-center mb-4">
+      <div className="flex items-center mb-2">
         <Terminal className="mr-2" />
         <h1 className="text-xl">Osvaldo Valentin Portfolio</h1>
       </div>
